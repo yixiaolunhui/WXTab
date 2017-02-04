@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/tab_icon_select"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tab_name"
+        android:text="微信"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@+id/tab_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tab_name_select"
+        android:text="微信"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@+id/tab_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tab_num"
+        android:text=""
+        android:layout_marginRight="15dp"
+        android:background="@drawable/tab_num_red_bg_shape"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:id="@+id/tab_tip"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/tip_round_red_bg_shape"
+        android:visibility="gone" />
+
+</RelativeLayout>

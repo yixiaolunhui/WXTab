@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabView">
+        <attr name="tabChecked" format="boolean" />
+        <attr name="tabName" format="string" />
+        <attr name="tabNameSize" format="dimension" />
+        <attr name="tabNameColor" format="color" />
+        <attr name="tabNameSelectColor" format="color" />
+
+        <attr name="tabIcon" format="reference" />
+        <attr name="tabIconSelect" format="reference" />
+
+        <attr name="tabLableText" format="string" />
+        <attr name="tabLableColor" format="color" />
+        <attr name="tabLableTextSize" format="dimension" />
+        <attr name="tabLablebackground" format="color"/>
+    </declare-styleable>
+
+</resources>

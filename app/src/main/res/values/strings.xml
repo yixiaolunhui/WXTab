@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WXTab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Dicover-->
+    <string name="discover_txt_pengyouquan">朋友圈</string>
+    <string name="discover_txt_saoyisao">扫一扫</string>
+    <string name="discover_txt_yaoyiyao">摇一摇</string>
+    <string name="discover_txt_nearby">附近的人</string>
+    <string name="discover_txt_piaoliuping">漂流瓶</string>
+    <string name="discover_txt_shop">购物</string>
+    <string name="discover_txt_game">游戏</string>
+
+    <!-- profile-->
+    <string name="profile_txt_album">相册</string>
+    <string name="profile_txt_collect">收藏</string>
+    <string name="profile_txt_money">钱包</string>
+    <string name="profile_txt_card">卡包</string>
+    <string name="profile_txt_smail">表情</string>
+    <string name="profile_txt_setting">设置</string>
+    <string name="profile_txt_username">超级无敌大坏蛋</string>
+    <string name="profile_txt_userid">微信号：dalong2008</string>
+    <string name="profile_txt_mycode">我的二维码</string>
+</resources>
